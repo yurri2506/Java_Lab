@@ -35,5 +35,20 @@ public class BT9 {
             }
         }
 
+        //Dem so phan tu bang x co trong mang
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            if (arr1[i] == x) {
+                count++;
+            }
+        }
+        System.out.println("So phan tu bang " + x + " co trong mang la: " + count);
+
+        //Sap xep mang theo thu tu tang dan
+        Arrays.sort(arr1);
+        System.out.println("Mang sau khi sap xep tang dan: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr1[i] + " ");
+        }
     }
 }
