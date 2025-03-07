@@ -12,9 +12,14 @@ public class Bai5 {
         }
         scanner.close();
     }
-    public static int tinhtiendien(int d){
-        if(d<=50) return d*2000;
-        else if(d>100) return 50*2000 + (d-50)*3500;
-        else return 50*2000 + (d-50)*2500;
+    public static int tinhtiendien(int d) {
+        if (d <= 50) {
+            return d * 2000;
+        } else if (d <= 100) {
+            return 50 * 2000 + (d - 50) * 2500;
+        } else {
+            return 50 * 2000 + 50 * 2500 + (d - 100) * 3500;
+        }
     }
 }
+
