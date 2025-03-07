@@ -1,3 +1,6 @@
+package Java_Lab;
+
+
 import java.util.Scanner;
 public class Bai5 {
     public static void main(String[] args){

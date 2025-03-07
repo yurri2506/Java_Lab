@@ -1,5 +1,7 @@
 package Java_Lab;
 
+
+
 import java.util.Scanner;
 class PhanSo{
     int tu, mau;
@@ -60,7 +62,7 @@ class PhanSo{
 
 }
 
-public class bt3 
+public class Bai3 
 {
     
     public static void main(String[] args) {
