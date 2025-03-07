@@ -21,7 +21,10 @@ public class Bai1_BTVN {
         System.out.print("Nhap so nguyen thu hai: ");
         int n2 = scanner.nextInt();
         System.out.println("Uoc chung lon nhat la: " + UCLN(n1, n2));
-        System.out.println("Boi chung nho nhat la: " + BCNN(n1, n2));
+        if(n1==0||n2==0){
+            System.out.println("Khong xac dinh duoc boi chung nho nhat.");
+        }else{
+        System.out.println("Boi chung nho nhat la: " + BCNN(n1, n2));}
         scanner.close();
     }
 }
