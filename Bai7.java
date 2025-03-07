@@ -14,11 +14,11 @@ public class Bai7 {
         if(n<2){
             ok=false;
         }
-        else if(ok ==true) {
+        else if(ok) {
             System.out.println(n+ " la so nguyen to");
         } else {
             System.out.println(n + " khong la so nguyen to");
         }
-
+         scanner.close();
     }
 }
