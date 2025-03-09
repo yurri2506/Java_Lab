@@ -1,16 +1,18 @@
-package ThucHanhJava.Lab01;
-import java.util.Scanner;
-public class BT2 {
-    //Viet ham nhap vao 2 so a va b, xuat ra man hinh a/b lay 3 so le
+package Java_Lab;
+
+public class BT2_VN {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();   
-        int b = sc.nextInt();
-        while (b <= 0) {
-            System.out.println("Nhap lai b > 0: ");
-            b = sc.nextInt();
+        //nhập số nguyên dương N, liet kê các ước của N
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        int n = scanner.nextInt();
+        while (n <= 0) {
+            System.out.println("N phai la so nguyen duong. Moi nhap lai: ");
+            n = scanner.nextInt();
         }
-        System.out.println("Ket qua: ");
-        System.out.printf("%.3f\n", (float) a / b);
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                System.out.print(i + " ");
+            }
+        }
     }
 }
