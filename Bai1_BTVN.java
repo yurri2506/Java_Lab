@@ -1,4 +1,5 @@
 
+package Java_Lab;
 import java.util.Scanner;
 public class Bai1_BTVN {
     public static int UCLN(int a, int b){

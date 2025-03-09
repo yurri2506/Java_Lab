@@ -1,3 +1,4 @@
+package Java_Lab;
 import java.util.Scanner;
 
 public class Bai4_BTVN {
